@@ -2,7 +2,7 @@
 
 .container {
   text-align: center;
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .card {
-  padding: 20px;
+  padding: 40px 20px;
 }
 
 h1 {
@@ -33,19 +33,45 @@ h2 {
 }
 
 h3 {
-  color: rgb(53, 53, 53); 
-  font-size: 26px;
+  color: rgb(51, 51, 51); 
+  font-size: 30px;
   padding: 20px;
 }
 
 .title-desc { 
-  color: rgb(27, 27, 27); 
+  color: rgb(88, 88, 88); 
   font-size: 22px; 
   padding: 20px 40px;
 }
 
+img {
+  width: 700px;
+  margin: 30px;
+ }
+
 .card-desc {
-  color: rgb(53, 53, 53);
+  color: rgb(83, 83, 83);
+  font-size: 22px;
+  padding: 10px;
+}
+
+.link {
+  color: rgb(0, 4, 255);
   font-size: 20px;
-  padding: 30px;
+  padding: 20px;
+}
+
+div > p {
+  line-height: 1.25;
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+td {
+  background-color: #5c8f23;
 }
