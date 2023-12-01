@@ -1,4 +1,4 @@
-@import url('reset.css');
+@import url("reset.css");
 
 .container {
   text-align: center;
@@ -23,7 +23,7 @@ h1 {
   font-size: 42px;
   font-weight: 900;
   padding: 40px 50px 20px;
-} 
+}
 
 h2 {
   color: rgb(27, 27, 27);
@@ -33,21 +33,21 @@ h2 {
 }
 
 h3 {
-  color: rgb(51, 51, 51); 
+  color: rgb(51, 51, 51);
   font-size: 30px;
   padding: 20px;
 }
 
-.title-desc { 
-  color: rgb(88, 88, 88); 
-  font-size: 22px; 
+.title-desc {
+  color: rgb(88, 88, 88);
+  font-size: 22px;
   padding: 20px 40px;
 }
 
 img {
   width: 700px;
   margin: 30px;
- }
+}
 
 .card-desc {
   color: rgb(83, 83, 83);
@@ -75,9 +75,9 @@ div > p {
 }
 
 .table-body {
-  width: 900px; 
+  width: 900px;
   height: 650px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 table,
@@ -91,21 +91,21 @@ td {
 }
 
 .grey {
-  background-color: rgb(143, 143, 143)
+  background-color: rgb(143, 143, 143);
 }
 
 .green {
-  background-color: rgb(6, 71, 26)
+  background-color: rgb(6, 71, 26);
 }
 
 .brightgreen {
-  background-color: rgb(50, 207, 29)
+  background-color: rgb(50, 207, 29);
 }
 
 .yellow {
-  background-color: rgb(255, 230, 0)
+  background-color: rgb(255, 230, 0);
 }
 
 .blue {
-  background-color: blue
+  background-color: blue;
 }
