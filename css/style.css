@@ -117,6 +117,7 @@ td {
 }
 .block-container {
   text-align: start;
+  margin: 50px 0;
   }
 .block-parent {
   font-size: 0;
@@ -172,6 +173,19 @@ td {
   outline: 1px solid red;
 }
 .block-orange-second > div > div {
+  outline: 1px solid red;
+}
+.block-orange-third {
+  font-size: 0;
+}
+.block-orange-third > div {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  height: 200px;
+}
+.block-orange-third > div > div {
   height: 100px;
   outline: 1px solid red;
 }
