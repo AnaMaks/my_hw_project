@@ -55,7 +55,7 @@ img {
   padding: 10px;
 }
 
-.link {
+.header-links {
   color: rgb(0, 4, 255);
   font-size: 20px;
   text-align: center;
@@ -108,4 +108,70 @@ td {
 
 .blue {
   background-color: blue;
+}
+
+/* Blocks */
+
+.hidden {
+  display: none;
+}
+.block-container {
+  text-align: start;
+  }
+.block-parent {
+  font-size: 0;
+  outline: 1px solid red;
+}
+
+.block-parent > div {
+  display: inline-block;
+  font-size: 20px;
+  outline: 1px solid red;
+}
+.block-blue {
+  background-color: aqua;
+}
+.block-blue > div {
+  width: 400px;
+  height: 400px;
+}
+.block-green {
+  background-color: greenyellow;
+}
+.block-green-first {
+  display: inline-block;
+  width: 800px;
+}
+.block-green-first > div {
+  height: 200px;
+  outline: 1px solid red;
+}
+.block-green-second {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+}
+.block-green-second> div {
+  height: 133.33px;
+  outline: 1px solid red;
+}
+.block-orange {
+  background-color: orange;
+}
+.block-orange-first {
+  width: 400px;
+  height: 400px;
+}
+.block-orange-second {
+  display: inline-block;
+  width: 800px;
+  vertical-align: top;
+}
+.block-orange-second > div {
+  height: 200px;
+  outline: 1px solid red;
+}
+.block-orange-second > div > div {
+  height: 100px;
+  outline: 1px solid red;
 }
